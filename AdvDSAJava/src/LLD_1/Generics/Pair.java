@@ -1,0 +1,23 @@
+package LLD_1.Generics;
+
+public class Pair <T,U>{
+
+    private T first;
+    private U second;
+
+    public T getFirst() {
+        return first;
+    }
+
+    public U getSecond() {
+        return second;
+    }
+
+
+    public Pair(T first, U second) {
+        this.first = first;
+        this.second = second;
+    }
+
+
+}
