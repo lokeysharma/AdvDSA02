@@ -10,6 +10,7 @@ public class Client {
 
         gotiya.add(new King());
         gotiya.add(new Queen());
+        
 
         for (Goti goti : gotiya) {
             goti.move();

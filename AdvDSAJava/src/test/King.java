@@ -10,4 +10,8 @@ public class King extends Goti{
     public void Upgrade() {
         System.out.println("King is upgrading");
     }
+
+    public  void jerkoff(){
+        System.out.println("King is jerkoffing");
+    }
 }
