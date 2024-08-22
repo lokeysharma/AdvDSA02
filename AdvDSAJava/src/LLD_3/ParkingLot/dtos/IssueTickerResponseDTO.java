@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter@Setter
 public class IssueTickerResponseDTO {
     private int tickerId;
-    private int amount;
+    private String parkingSlotNumber;
     private ResponseStatus responseStatus;
 }

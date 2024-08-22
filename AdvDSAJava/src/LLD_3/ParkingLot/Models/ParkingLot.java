@@ -15,6 +15,7 @@ public class ParkingLot extends BaseModel{
     //private Map<VehicleType, Integer> vehicleCapacities; // was not a good idea because of long and extensable no of data
     private List<VehicleTypeCapacity> vehicleTypeCapacities;
     private ParkingLotStatus parkingLotStatus;
+    private SlotAssignmentStrategyType slotAssignmentStrategyType; // can be changed by admin.
 }
 
 
