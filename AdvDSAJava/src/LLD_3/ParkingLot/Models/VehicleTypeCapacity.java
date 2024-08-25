@@ -7,4 +7,9 @@ import lombok.Setter;
 public class VehicleTypeCapacity {
     private int capacity;
     private VehicleType vehicleType;
+
+    public VehicleTypeCapacity(int capacity, VehicleType vehicleType) {
+        this.capacity = capacity;
+        this.vehicleType = vehicleType;
+    }
 }

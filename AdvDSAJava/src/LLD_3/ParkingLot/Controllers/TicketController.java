@@ -13,7 +13,7 @@ public class TicketController {
         this.ticketService = ticketService;
     }
 
-    IssueTickerResponseDTO issueTicker(
+    public IssueTickerResponseDTO issueTicker(
             // need to send an data object DTO __ data transfer object
             IssueTickerRequestDTO requestDTO
     ){
@@ -26,7 +26,8 @@ public class TicketController {
                     requestDTO.getGateId(),
                     requestDTO.getVehicleNumber(),
                     requestDTO.getOwnerName(),
-                    requestDTO.getVehicleType()
+                    requestDTO.getVehicleType(),
+                    requestDTO.getParkingLotId()
             );
             responseDTO.setParkingSlotNumber(ticket.getParkingSlot().getSlotNumber());
             responseDTO.setResponseStatus(ResponseStatus.Success);
